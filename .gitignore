@@ -1,5 +1,6 @@
 config.py
 __pycache__/*
+bloodyterminal/__pycache__/*
 
 *.dll
 
@@ -10,3 +11,5 @@ setup.cfg
 .pypirc
 
 MANIFEST
+bloodyterminal.egg-info/*
+dist/*
