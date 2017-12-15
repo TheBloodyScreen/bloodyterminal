@@ -22,3 +22,10 @@ class bt:
 
     def custom(str1, str2):
         print(Fore.CYAN + '[%s] ' % str1 + str2 + Style.RESET_ALL)
+
+    def demo():
+        bt.success("your string")
+        bt.info("your string")
+        bt.warning("your string")
+        bt.debug("your string")
+        bt.custom("your prefix", "your string")

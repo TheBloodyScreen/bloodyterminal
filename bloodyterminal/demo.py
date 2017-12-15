@@ -1,8 +1,9 @@
 from bloodyterminal import bt
 
 
-bt.success("yey!")
-bt.info("some string")
-bt.warning("some other string")
-bt.debug("yet another string")
-bt.custom("Jonniboy", "and a custom string just for you")
+bt.demo()
+bt.success("your string")
+bt.info("your string")
+bt.warning("your string")
+bt.debug("your string")
+bt.custom("your prefix", "your string")
