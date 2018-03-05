@@ -3,7 +3,7 @@ from colorama import Fore, Style, init
 init()
 
 
-class bt:
+class btext:
 
     def __init__():
         print(Style.RESET_ALL)
@@ -24,8 +24,8 @@ class bt:
         print(Fore.CYAN + '[%s] ' % str1 + str2 + Style.RESET_ALL)
 
     def demo():
-        bt.success("your string")
-        bt.info("your string")
-        bt.warning("your string")
-        bt.debug("your string")
-        bt.custom("your prefix", "your string")
+        btext.success("your string")
+        btext.info("your string")
+        btext.warning("your string")
+        btext.debug("your string")
+        btext.custom("your prefix", "your string")
