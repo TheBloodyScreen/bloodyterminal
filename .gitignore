@@ -5,11 +5,11 @@ bloodyterminal/__pycache__/*
 *.dll
 
 \.vscode/launch\.json
-
+.idea/
 music\.mp3
 setup.cfg
 .pypirc
-
+demo_windows.png
 MANIFEST
 bloodyterminal.egg-info/*
 dist/*
