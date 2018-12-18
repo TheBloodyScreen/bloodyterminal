@@ -10,24 +10,31 @@ class btext:
     def __init__(self):
         print(Style.RESET_ALL)
 
-    def success(str):
-        print(Fore.GREEN + '[SUCCESS] ' + str + Style.RESET_ALL)
+    @staticmethod
+    def success(string):
+        print(Fore.GREEN + '[SUCCESS] ' + str(string) + Style.RESET_ALL)
 
-    def info(str):
-        print(Fore.YELLOW + '[INFO] ' + str + Style.RESET_ALL)
+    @staticmethod
+    def info(string):
+        print(Fore.YELLOW + '[INFO] ' + str(string) + Style.RESET_ALL)
 
-    def warning(str):
-        print(Fore.RED + '[WARNING] ' + str + Style.RESET_ALL)
+    @staticmethod
+    def warning(string):
+        print(Fore.RED + '[WARNING] ' + str(string) + Style.RESET_ALL)
 
-    def error(str):
-        print(Fore.LIGHTRED_EX + '[ERROR] ' + str + Style.RESET_ALL)
+    @staticmethod
+    def error(string):
+        print(Fore.LIGHTRED_EX + '[ERROR] ' + str(string) + Style.RESET_ALL)
 
-    def debug(str):
-        print(Fore.MAGENTA + '[DEBUG] ' + str + Style.RESET_ALL)
+    @staticmethod
+    def debug(string):
+        print(Fore.MAGENTA + '[DEBUG] ' + str(string) + Style.RESET_ALL)
 
-    def custom(str1, str2):
-        print(Fore.CYAN + '[%s] ' % str1 + str2 + Style.RESET_ALL)
+    @staticmethod
+    def custom(string1, string2):
+        print(Fore.CYAN + '[%s] ' % str(string1) + str(string2) + Style.RESET_ALL)
 
+    @staticmethod
     def demo():
         btext.success("your string")
         btext.info("your string")

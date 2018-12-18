@@ -14,7 +14,7 @@ MANIFEST
 bloodyterminal.egg-info/*
 dist/*
 binary\.py
-
+venv/*
 bloodyterminal/demo\.py
 
 GIF\.gif
